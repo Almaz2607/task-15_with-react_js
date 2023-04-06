@@ -1,0 +1,58 @@
+.create-task-block {
+  position: relative;
+}
+
+.create-task-block__input {
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+
+  font-size: 2rem;
+  line-height: 2.5rem;
+  height: 40px;
+  width: 50%;
+  padding: 0;
+  margin-bottom: 40px;
+  margin-right: 5px;
+}
+
+.create-task-block__button {
+  cursor: pointer;
+  height: 44px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.create-task-block__button_dark {
+  border: 1px solid #ffffff;
+}
+
+.tooltip {
+  position: absolute;
+  left: -50%;
+  bottom: calc(100% + 5px);
+  margin: auto 0;
+
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 200px;
+  border: 2px solid var(--default-border-color);
+}
+
+.error-message-block {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--error-color);
+}
